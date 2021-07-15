@@ -7,6 +7,8 @@
   <img src="https://profile-counter.glitch.me/CoolCoderSJ/count.svg" />
 </p>
 
+![replit](https://replcards.coolcodersj.repl.co/card/profile/CoolCoderSJ)
+
 <!--
 **CoolCoderSJ/CoolCoderSJ** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
