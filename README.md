@@ -24,7 +24,10 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-- 🔭 I can code proficiently in Python, and I know really basic JS.
+I know advanced Python and Web Dev, Intermediate JS, and SQL.
+I've worked with CLI, Native GUI, Web apps, Databases, and large projects in general.
+My main work includes ReplitCLI, SJURL, and contributions to Reflux for Replit.
+
 - Contact - ~~id rather not give out my email~~ 
 * Discord - [~~something~~ ](https://canary.discord.com)
 * Repl.it - [CoolCoderSJ](https://repl.it/@CoolCoderSJ) 
