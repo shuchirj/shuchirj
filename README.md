@@ -1,38 +1,31 @@
 ### Hi there!
 
-<img src="https://raw.githubusercontent.com/sagar-viradiya/sagar-viradiya/master/resources/banner.png" alt="Hello world">
+Languages I know-
+- Python
+- JS
 
-<p align="center"> 
-  Visitor count<br>
-  <img src="https://profile-counter.glitch.me/CoolCoderSJ/count.svg" />
-</p>
+Stuff I can do-
+- React Native (mobile applications)
+- Flask (web applications)
+- Web.py (web applications)
+- Typer (CLI applications)
+- Serverless application deployments
 
-![Replit Profile Card](https://replcards.coolcodersj.repl.co/card/profile/CoolCoderSJ.svg)
+CSS thingies I know how to use-
+- Bootstrap
+- Bulma
+- Plain css
+- Material.io
 
-<!--
-**CoolCoderSJ/CoolCoderSJ** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+IDEs I've used before-
+- Replit
+- Github Codespaces
+- Visual Studio Code
+- Atom
+- Sublime Text
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
-I know advanced Python and Web Dev, Intermediate JS, and SQL.
-I've worked with CLI, Native GUI, Web apps, Databases, and large projects in general.
-My main work includes ReplitCLI, SJURL, and contributions to Reflux for Replit.
-
-- Contact - ~~id rather not give out my email~~ 
-* Discord - [~~something~~ ](https://canary.discord.com)
-* Repl.it - [CoolCoderSJ](https://repl.it/@CoolCoderSJ) 
-* Github - [You should know this by now](https://github.com/CoolCoderSJ)
-
-(The following metrics include Private Repos)
-
-![Metrics](https://github.com/CoolCoderSJ/CoolCoderSJ/blob/main/github-metrics.svg)
+Some of my favorite work-
+- [MyT1D](https://github.com/CoolCoderSJ/MyT1D) - a mobile application that helps type 1 diabetes patients manage their diabetes easier
+- [Crinkle](https://github.com/CoolCoderSJ/Crinkle) - a feature packed awesome URL shortener
+- [Replit Oauth](https://github.com/CoolCoderSJ/replit-oauth) - An unofficial oauth tool for replit
+- [SearchDeck](https://github.com/CoolCoderSJ/Searchdeck) - a search engine that compiles results from 4 different search engines so you always find what you need
