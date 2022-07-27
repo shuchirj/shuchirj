@@ -17,7 +17,7 @@ CSS thingies I know how to use-
 - Plain css
 - Material.io
 
-IDEs I've used before-
+Code editors I've used before-
 - Replit
 - Github Codespaces
 - Visual Studio Code
