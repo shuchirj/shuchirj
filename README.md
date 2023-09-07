@@ -1,5 +1,8 @@
 ### Hi there!
 
+Personal website - https://shuchir.dev
+Photography Portfolio - https://photography.shuchir.dev
+
 Languages I know-
 - Python
 - JS
@@ -23,9 +26,3 @@ Code editors I've used before-
 - Visual Studio Code
 - Atom
 - Sublime Text
-
-Some of my favorite work-
-- [MyT1D](https://github.com/CoolCoderSJ/MyT1D) - a mobile application that helps type 1 diabetes patients manage their diabetes easier
-- [Crinkle](https://github.com/CoolCoderSJ/Crinkle) - a feature packed awesome URL shortener
-- [Replit Oauth](https://github.com/CoolCoderSJ/replit-oauth) - An unofficial oauth tool for replit
-- [SearchDeck](https://github.com/CoolCoderSJ/Searchdeck) - a search engine that compiles results from 4 different search engines so you always find what you need
