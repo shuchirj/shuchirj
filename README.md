@@ -1,6 +1,7 @@
 ### Hi there!
 
 Personal website - https://shuchir.dev
+
 Photography Portfolio - https://photography.shuchir.dev
 
 Languages I know-
