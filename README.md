@@ -1,29 +1,19 @@
-### Hi there!
+## Shuchir Jain
+[shuchir.dev](https://shuchir.dev/)
+| contact@shuchir.dev
 
-Personal website - https://shuchir.dev
-
-Photography Portfolio - https://photography.shuchir.dev
-
-Languages I know-
+Languages-
 - Python
 - JS
+- Ruby
 
-Stuff I can do-
-- React Native (mobile applications)
-- Flask (web applications)
-- Web.py (web applications)
-- Typer (CLI applications)
-- Serverless application deployments
+Platforms (a very quick overview)-
+- React Native/React
+- Flask
+- Typer/CLI
 
-CSS thingies I know how to use-
-- Bootstrap
-- Bulma
-- Plain css
-- Material.io
-
-Code editors I've used before-
-- Replit
-- Github Codespaces
-- Visual Studio Code
-- Atom
-- Sublime Text
+Work-
+- Community Moderation @ Replit
+- Contracted Infrastructure Engineer @ Pendemer Productions, Peebles Volunteer Fire Co.
+- Director of Tech & Infra @ Project Water
+- and so much more at [shuchir.dev](https://shuchir.dev/)
