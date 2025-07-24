@@ -44,6 +44,7 @@ jobs:
                   self.image_found = False
 
               def handle_starttag(self, tag, attrs):
+                  global content, image_url
                   if tag == 'img':
                       for attr in attrs:
                           if attr[0] == 'src' and 'readme-map.shuchir.dev' in attr[1]:
