@@ -28,14 +28,8 @@ jobs:
           url = f'https://readme-map.shuchir.dev/{github_username}'
           resp = requests.get(url)
           resp.raise_for_status()
-          os.environ['map_id'] = resp.text.strip()
+          map_id = resp.text.strip()
 
-        shell: python
-
-      - name: Update README.md image
-        run: |
-          import os
-          map_id = os.environ['map_id']
           image_url = f"https://readme-map.shuchir.dev/map/{map_id}?theme=dark"
           readme_path = 'README.md'
           content = ""
