@@ -21,6 +21,6 @@
 
 <img src="https://readme-stats-nine-delta.vercel.app/api/?username=shuchirj&layout=donut&size_weight=0&count_weight=1&hide=css,scss,jupyter%20notebook,kotlin,nix,dockerfile&langs_count=5&theme=tokyonight&title_color=aaaeff&text_color=aaaeff&hide_border=true&border_color=8&rank_icon=percentile&include_all_commits=true" height="200"> <img src="https://readme-stats-nine-delta.vercel.app/api/top-langs/?username=shuchirj&layout=donut&size_weight=0&count_weight=1&hide=css,scss,jupyter%20notebook,kotlin,nix,dockerfile&langs_count=5&theme=tokyonight&title_color=aaaeff&text_color=aaaeff&hide_border=true&border_color=8" height="200">
 
-<img src="https://readme-map.shuchir.dev/ShuchirJ?theme=dark&skipcache=2" height="200">
-
-[Add yourself to the map](https://readme-map.shuchir.dev/ShuchirJ?theme=light&skipcache=2)
+<a href="https://readme-map.shuchir.dev/add/ShuchirJ" target="_blank">
+  <img src="https://readme-map.shuchir.dev/map/?theme=dark" alt="Map of my profile visits" />
+</a>
