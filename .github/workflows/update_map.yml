@@ -1,0 +1,75 @@
+name: Update Readme Map Image
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Runs every hour
+  workflow_dispatch:
+
+jobs:
+  update-readme-map:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Fetch map data
+        id: fetch_map
+        run: |
+          import requests
+          import os
+
+          github_username = os.environ['GITHUB_REPOSITORY'].split('/')[0]
+          url = f'https://readme-map.shuchir.dev/{github_username}'
+          resp = requests.get(url)
+          resp.raise_for_status()
+          os.environ['map_id'] = resp.text.strip()
+
+        shell: python
+
+      - name: Update README.md image
+        run: |
+          import os
+          map_id = os.environ['map_id']
+          image_url = f"https://readme-map.shuchir.dev/map/{map_id}?theme=dark"
+          readme_path = 'README.md'
+          content = ""
+
+          with open(readme_path, 'r') as file:
+              content = file.read()
+            
+          from html.parser import HTMLParser
+          class MyHTMLParser(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.image_found = False
+
+              def handle_starttag(self, tag, attrs):
+                  if tag == 'img':
+                      for attr in attrs:
+                          if attr[0] == 'src' and 'readme-map.shuchir.dev' in attr[1]:
+                              self.image_found = True
+                              new_src = f"{image_url}"
+                              content = content.replace(attr[1], new_src)
+                              break
+          parser = MyHTMLParser()
+          parser.feed(content)
+          if parser.image_found:
+              with open(readme_path, 'w') as file:
+                  file.write(content)
+          else:
+              raise ValueError("Image tag not found in README.md")
+
+        shell: python
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "Update map image in README"
+          git push
