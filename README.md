@@ -23,4 +23,4 @@
 
 <img src="https://readme-map.shuchir.dev/ShuchirJ?theme=dark&skipcache=1" height="200">
 
-[Add yourself to the map](https://readme-map.shuchir.dev/ShuchirJ?theme=light&skipcache=1)
+[Add yourself to the map](https://readme-map.shuchir.dev/ShuchirJ?theme=light&skipcache=2)
