@@ -2,8 +2,7 @@
 [shuchir.dev](https://shuchir.dev) | contact@shuchir.dev
 <br><br>
 
-- 🔭 Some of my favorite work: [HCGateway](https://github.com/shuchirj/HCGateway)
-- 🌱 Currently learning: **Ruby/Rails**
+- 🔭 Some of my favorite work: [bop](https://github.com/shuchirj/bop), [HCGateway](https://github.com/shuchirj/HCGateway)
 
 ### Work:
 - Director of Infrastructure @ Project Water
